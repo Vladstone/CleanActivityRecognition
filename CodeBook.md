@@ -1,9 +1,9 @@
 # Data Dictionary - Mobile Device Movement Means and Standard Deviations
 
-## Subject
+### Subject
 * Test subjects 1 through 30
 
-## Activity
+### Activity
 
 * 1 WALKING
 * 2 WALKING_UPSTAIRS
@@ -12,317 +12,317 @@
 * 5 STANDING
 * 6 LAYING
 
-## tBodyAcc-mean()-X
+### tBodyAcc-mean()-X
 
 * Mean normalized body accelerometer reading X-axis
 
-## tBodyAcc-mean()-Y
+### tBodyAcc-mean()-Y
 
 * Mean normalized body accelerometer reading Y-axis
 
-## tBodyAcc-mean()-Z
+### tBodyAcc-mean()-Z
 
 * Mean normalized body accelerometer reading Z-axis 
 
-## tBodyAcc-std()-X
+### tBodyAcc-std()-X
 
 * Standard deviation normalized body accelerometer reading X-axis
 
-## tBodyAcc-std()-Y
+### tBodyAcc-std()-Y
 
 * Standard deviation normalized body accelerometer reading Y-axis
 
-## tBodyAcc-std()-Z
+### tBodyAcc-std()-Z
 
 * Standard deviation normalized body accelerometer reading Z-axis
 
-## tGravityAcc-mean()-X
+### tGravityAcc-mean()-X
 
 * Mean normalized gravity accelerometer reading X-axis
 
-## tGravityAcc-mean()-Y
+### tGravityAcc-mean()-Y
 
 * Mean normalized gravity accelerometer reading Y-axis
 
-## tGravityAcc-mean()-Z
+### tGravityAcc-mean()-Z
 
 * Mean normalized gravity accelerometer reading Z-axis
 
-## tGravityAcc-std()-X
+### tGravityAcc-std()-X
 
 * Standard deviation normalized gravity accelerometer reading X-axis
 
-## tGravityAcc-std()-Y
+### tGravityAcc-std()-Y
 
 * Standard deviation normalized gravity accelerometer reading Y-axis
 
-## tGravityAcc-std()-Z
+### tGravityAcc-std()-Z
 
 * Standard deviation normalized gravity accelerometer reading Z-axis
 
-## tBodyAccJerk-mean()-X
+### tBodyAccJerk-mean()-X
 
 * Mean normalized body jerk accelerometer reading X-axis
 
-## tBodyAccJerk-mean()-Y
+### tBodyAccJerk-mean()-Y
 
 * Mean normalized body jerk accelerometer reading Y-axis
 
-## tBodyAccJerk-mean()-Z
+### tBodyAccJerk-mean()-Z
 
 * Mean normalized body jerk accelerometer reading Z-axis
 
-## tBodyAccJerk-std()-X
+### tBodyAccJerk-std()-X
 
 * Standard deviation normalized body jerk accelerometer reading X-axis
 
-## tBodyAccJerk-std()-Y
+### tBodyAccJerk-std()-Y
 
 * Standard deviation normalized body jerk accelerometer reading Y-axis
 
-## tBodyAccJerk-std()-Z
+### tBodyAccJerk-std()-Z
 
 * Standard deviation normalized body jerk accelerometer reading Z-axis
 
-## tBodyGyro-mean()-X
+### tBodyGyro-mean()-X
 
 * Mean normalized body gyroscope reading X-axis
 
-## tBodyGyro-mean()-Y
+### tBodyGyro-mean()-Y
 
 * Mean normalized body gyroscope reading Y-axis
 
-## tBodyGyro-mean()-Z
+### tBodyGyro-mean()-Z
 
 * Mean normalized body gyroscope reading Z-axis
 
-## tBodyGyro-std()-X
+### tBodyGyro-std()-X
 
 * Standard deviation normalized body gyroscope reading X-axis
 
-## tBodyGyro-std()-Y
+### tBodyGyro-std()-Y
 
 * Standard deviation normalized body gyroscope reading Y-axis
 
-## tBodyGyro-std()-Z
+### tBodyGyro-std()-Z
 
 * Standard deviation normalized body gyroscope reading Z-axis
 
-## tBodyGyroJerk-mean()-X
+### tBodyGyroJerk-mean()-X
 
 * Mean normalized body jerk gyroscope reading X-axis
 
-## tBodyGyroJerk-mean()-Y
+### tBodyGyroJerk-mean()-Y
 
 * Mean normalized body jerk gyroscope reading Y-axis
 
-## tBodyGyroJerk-mean()-Z
+### tBodyGyroJerk-mean()-Z
 
 * Mean normalized body jerk gyroscope reading Z-axis
 
-## tBodyGyroJerk-std()-X
+### tBodyGyroJerk-std()-X
 
 * Standard deviation normalized body jerk gyroscope reading X-axis
 
-## tBodyGyroJerk-std()-Y
+### tBodyGyroJerk-std()-Y
 
 * Standard deviation normalized body jerk gyroscope reading Y-axis
 
-## tBodyGyroJerk-std()-Z
+### tBodyGyroJerk-std()-Z
 
 * Standard deviation normalized body jerk gyroscope reading Z-axis
 
-## tBodyAccMag-mean()
+### tBodyAccMag-mean()
 
 * Mean normalized body accelerometer reading magnitude
 
-## tBodyAccMag-std()
+### tBodyAccMag-std()
 
 * Standard deviation normalized body accelerometer reading magnitude
 
-## tGravityAccMag-mean()
+### tGravityAccMag-mean()
 
 * Mean normalized gravity accelerometer reading magnitude
 
-## tGravityAccMag-std()
+### tGravityAccMag-std()
 
 * Standard deviation normalized gravity accelerometer reading magnitude
 
-## tBodyAccJerkMag-mean()
+### tBodyAccJerkMag-mean()
 
 * Mean normalized body jerk accelerometer reading magnitude
 
-## tBodyAccJerkMag-std()
+### tBodyAccJerkMag-std()
 
 * Mean normalized body jerk accelerometer reading magnitude
 
-## tBodyGyroMag-mean()
+### tBodyGyroMag-mean()
 
 * Mean normalized body gyroscope reading magnitude
 
-## tBodyGyroMag-std()
+### tBodyGyroMag-std()
 
 * Standard deviation normalized body gyroscope reading magnitude
 
-## tBodyGyroJerkMag-mean()
+### tBodyGyroJerkMag-mean()
 
 * Mean normalized body jerk gyroscope reading magnitude
 
-## tBodyGyroJerkMag-std()
+### tBodyGyroJerkMag-std()
 
 * Standard deviation normalized body jerk gyroscope reading magnitude
 
-## fBodyAcc-mean()-X
+### fBodyAcc-mean()-X
 
 * Mean normalized Fast Fourier Transform body accelerometer reading X-axis
 
-## fBodyAcc-mean()-Y
+### fBodyAcc-mean()-Y
 
 * Mean normalized Fast Fourier Transform body accelerometer reading Y-axis
 
-## fBodyAcc-mean()-Z
+### fBodyAcc-mean()-Z
 
 * Mean normalized Fast Fourier Transform body accelerometer reading Z-axis
 
-## fBodyAcc-std()-X
+### fBodyAcc-std()-X
 
 * Standard deviation normalized Fast Fourier Transform body accelerometer reading X-axis
 
-## fBodyAcc-std()-Y
+### fBodyAcc-std()-Y
 
 * Standard deviation normalized Fast Fourier Transform body accelerometer reading Y-axis
 
-## fBodyAcc-std()-Z
+### fBodyAcc-std()-Z
 
 * Standard deviation normalized Fast Fourier Transform body accelerometer reading Z-axis
 
-## fBodyAcc-meanFreq()-X
+### fBodyAcc-meanFreq()-X
 
 * Mean frequency normalized Fast Fourier Transform body accelerometer reading X-axis
 
-## fBodyAcc-meanFreq()-Y
+### fBodyAcc-meanFreq()-Y
 
 * Mean frequency normalized Fast Fourier Transform body accelerometer reading Y-axis
 
-## fBodyAcc-meanFreq()-Z
+### fBodyAcc-meanFreq()-Z
 
 * Mean frequency normalized Fast Fourier Transform body accelerometer reading Z-axis
 
-## fBodyAccJerk-mean()-X
+### fBodyAccJerk-mean()-X
 
 * Mean normalized Fast Fourier Transform body jerk accelerometer reading X-axis
 
-## fBodyAccJerk-mean()-Y
+### fBodyAccJerk-mean()-Y
 
 * Mean normalized Fast Fourier Transform body jerk accelerometer reading Y-axis
-## fBodyAccJerk-mean()-Z
+### fBodyAccJerk-mean()-Z
 
 * Mean normalized Fast Fourier Transform body jerk accelerometer reading Z-axis
 
-## fBodyAccJerk-std()-X
+### fBodyAccJerk-std()-X
 
 * Standard deviation normalized Fast Fourier Transform body jerk accelerometer reading X-axis
 
-## fBodyAccJerk-std()-Y
+### fBodyAccJerk-std()-Y
 
 * Standard deviation normalized Fast Fourier Transform body jerk accelerometer reading Y-axis
 
-## fBodyAccJerk-std()-Z
+### fBodyAccJerk-std()-Z
 
 * Standard deviation normalized Fast Fourier Transform body jerk accelerometer reading Z-axis
 
-## fBodyAccJerk-meanFreq()-X
+### fBodyAccJerk-meanFreq()-X
 
 * Mean frequency normalized Fast Fourier Transform body jerk accelerometer reading X-axis
 
-## fBodyAccJerk-meanFreq()-Y
+### fBodyAccJerk-meanFreq()-Y
 
 * Mean frequency normalized Fast Fourier Transform body jerk accelerometer reading Y-axis
 
-## fBodyAccJerk-meanFreq()-Z
+### fBodyAccJerk-meanFreq()-Z
 
 * Mean frequency normalized Fast Fourier Transform body jerk accelerometer reading Z-axis
 
-## fBodyGyro-mean()-X
+### fBodyGyro-mean()-X
 
 * Mean normalized Fast Fourier Transform body gyroscope reading X-axis
 
-## fBodyGyro-mean()-Y
+### fBodyGyro-mean()-Y
 
 * Mean normalized Fast Fourier Transform body gyroscope reading Y-axis
 
-## fBodyGyro-mean()-Z
+### fBodyGyro-mean()-Z
 
 * Mean normalized Fast Fourier Transform body gyroscope reading Z-axis
 
-## fBodyGyro-std()-X
+### fBodyGyro-std()-X
 
 * Standard deviation normalized Fast Fourier Transform body gyroscope reading X-axis
 
-## fBodyGyro-std()-Y
+### fBodyGyro-std()-Y
 
 * Standard deviation normalized Fast Fourier Transform body gyroscope reading Y-axis
 
-## fBodyGyro-std()-Z
+### fBodyGyro-std()-Z
 
 * Standard deviation normalized Fast Fourier Transform body gyroscope reading Z-axis
 
-## fBodyGyro-meanFreq()-X
+### fBodyGyro-meanFreq()-X
 
 * Mean frequency normalized Fast Fourier Transform body gyroscope reading X-axis
 
-## fBodyGyro-meanFreq()-Y
+### fBodyGyro-meanFreq()-Y
 
 * Mean frequency normalized Fast Fourier Transform body gyroscope reading Y-axis
 
-## fBodyGyro-meanFreq()-Z
+### fBodyGyro-meanFreq()-Z
 
 * Mean frequency normalized Fast Fourier Transform body gyroscope reading Z-axis
 
-## fBodyAccMag-mean()
+### fBodyAccMag-mean()
 
 * Mean normalized Fast Fourier Transform body accelerometer reading magnitude
 
-## fBodyAccMag-std()
+### fBodyAccMag-std()
 
 * Standard deviation normalized Fast Fourier Transform body accelerometer reading magnitude
 
-## fBodyAccMag-meanFreq()
+### fBodyAccMag-meanFreq()
 
 * Mean frequency normalized Fast Fourier Transform body accelerometer reading magnitude
 
-## fBodyAccJerkMag-mean()
+### fBodyAccJerkMag-mean()
 
 * Mean normalized Fast Fourier Transform body jerk accelerometer reading magnitude
 
-## fBodyAccJerkMag-std()
+### fBodyAccJerkMag-std()
 
 * Standard deviation normalized Fast Fourier Transform body jerk accelerometer reading magnitude
 
-## fBodyAccJerkMag-meanFreq()
+### fBodyAccJerkMag-meanFreq()
 
 * Mean frequency normalized Fast Fourier Transform body jerk accelerometer reading magnitude
 
-## fBodyGyroMag-mean()
+### fBodyGyroMag-mean()
 
 * Mean normalized Fast Fourier Transform body gyroscope reading magnitude
 
-## fBodyGyroMag-std()
+### fBodyGyroMag-std()
 
 * Standard deviation normalized Fast Fourier Transform body gyroscope reading magnitude
 
-## fBodyGyroMag-meanFreq()
+### fBodyGyroMag-meanFreq()
 
 * Mean frequency normalized Fast Fourier Transform body gyroscope reading magnitude
 
-## fBodyGyroJerkMag-mean()
+### fBodyGyroJerkMag-mean()
 
 * Mean normalized Fast Fourier Transform body jerk gyroscope reading magnitude
 
-## fBodyGyroJerkMag-std()
+### fBodyGyroJerkMag-std()
 
 * Standard deviation normalized Fast Fourier Transform body jerk gyroscope reading magnitude
 
-## fBodyGyroJerkMag-meanFreq()
+### fBodyGyroJerkMag-meanFreq()
 
 * Mean frequency normalized Fast Fourier Transform body jerk gyroscope reading magnitude
