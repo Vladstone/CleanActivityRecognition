@@ -1,4 +1,5 @@
 run_analysis <- function() {
+    
     # save data directory
     data_dir <- "getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/"    
     
@@ -23,23 +24,25 @@ run_analysis <- function() {
     x = read.table(paste(data_dir,"test/X_test.txt", sep=""))
     activity = rbind(activity, cbind(subject,y,x))
     
-    # Assign column names: Subject, Activity then features values
-    names(activity) <- c("Subject","Activity", as.character(features[,2]))
+    # Remove duplicate "Body" in features
+    features[,2] <- as.character(features[,2])
+    features[,2] <- gsub("BodyBody", "Body", features[,2])
+    
+    # Assign column names as Subject, Activity then features values
+    names(activity) <- c("Subject","Activity", features[,2])
     
     # Filter activities measures to include only means and standard deviations
-    cols <- grepl("mean", names(activity)) | grepl("Mean", names(activity))
-    cols <- cols | grepl("std", names(activity))
-    cols <- cols & (!grepl("meanFreq", names(activity)))
+    cols <- grepl("mean", names(activity)) | grepl("std", names(activity))
     cols[1:2] = TRUE
     activity <- activity[,cols]
     
-    # Convert activity factor column and assign levels from act_label
+    # Convert activity to factor column and make levels act_label
     activity[,"Activity"] = as.factor(activity[,"Activity"])
     levels(activity[,"Activity"]) <- as.character(act_label[,2])
 
     # Compute feature means by subject and activity and save to file
     grp <- group_by(activity, Subject, Activity)
     smr <- summarise_each(grp, funs(mean(.,na.rm=TRUE)))
-    write.table(smr, "activity_summary", row.name=FALSE)
+    write.table(smr, "activity_summary.txt", row.name=FALSE)
     
 }
